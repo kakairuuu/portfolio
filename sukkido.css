@@ -1,0 +1,150 @@
+.title {
+    text-align: center;
+}
+
+.title img {
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+}
+
+.title p {
+    font-size: 16px; 
+    color: #ffffff;
+    margin-top: 10px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.gallery-item {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 1%;
+}
+
+.gallery-item h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #539fcb;
+}
+
+.gallery-item p {
+    font-size: 16px;
+    color: #666666;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:  #539fcb;
+    border: 2px solid #97ceee;
+    border-radius: 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color:  #539fcb;
+    border-color:  #539fcb;
+    color: #ffffff;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    text-size-adjust: 10px;
+}
+
+.gallery-item {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: auto;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.gallery-item {
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+body {
+    overflow-y: overlay;
+}
+
+/* Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: pink; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Roundness of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b6236c; /* Adjust color on hover if needed */
+}

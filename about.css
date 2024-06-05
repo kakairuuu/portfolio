@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 120px;
+    background-color: #EC7294;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    margin-left: 0.0;
+    overflow: hidden;
+}
+
+header {
+    background-color: hsla(0, 0%, 100%, 0);
+    color: white;
+    padding: 20px;
+}
+
+.section .left h1 {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #EC7294;
+}
+
+.section .left p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #EC7294;
+}
+
+.section .right h1 {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #539FCB;
+}
+
+
+.section .right p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #539FCB;
+}
+
+.section {
+    display: flex;
+    padding: 200px;
+}
+
+.section .right {
+    flex: 1;
+}
+
+
+.section:nth-child(even) .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcfe2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.section:nth-child(even) .button:hover {
+    background-color: #ec7294; 
+    border-color: #ec7294;
+}
+
+/* Button styles for the second section */
+.section:nth-child(odd) .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #97ceee;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.section:nth-child(odd) .button:hover {
+    background-color: #539fcb; 
+    border-color: #539fcb; 
+}
+
+.resume img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+#resume1 {
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+#resume2 {
+    max-width: fit-content;
+}
+
+.section .left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.half-width {
+    width: 100%; /* Set the width of the image to half of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.section {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    padding: 50px; /* Add some padding for spacing */
+}
+
+.section .left,
+.section .right {
+    flex: 1; /* Equal width for both left and right divs */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.section .left img,
+.section .right img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.section .left {
+    text-align: left;
+    margin-left: 200px;
+}
+
+.section .right {
+    text-align: right;
+    margin-right: 200px;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    text-size-adjust: 10px;
+    background-color: #539fcb;
+}
+
+body {
+    overflow-y: overlay;
+}
+
+/* Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: pink; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Roundness of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b6236c; /* Adjust color on hover if needed */
+}
+
+
+
+

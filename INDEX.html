@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<?php include 'header.php'; ?>
+
+    <style>
+    img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     }
+    </style>
+
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <div class="carousel-item">
+                <img src="Home PAGE/aa.png" alt="Image 1">
+                <div class="carousel-caption">
+                <h2>Art Portfolio</h2>
+                        <p>Embark on a journey through the vivid imaginations and creative expressions of Kairu and Sukkido. 
+                        <br> Our portfolio showcases the beauty and power of art in various forms, from mesmerizing 
+                        <br> illustrations and graphic designs to captivating photography. Each piece tells a 
+                        <br> unique story, inviting you to explore the depths of our creativity. 
+                        <br> Welcome to our world of artistic inspiration.</p>
+                    <a href="sukkido.php" class="view-collection">View Collection</a>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Home PAGE/bb.png" alt="Image 2">
+                <div class="carousel-caption">
+                <h2>Art Portfolio</h2>
+                        <p>Embark on a journey through the vivid imaginations and creative expressions of Kairu and Sukkido. 
+                        <br> Our portfolio showcases the beauty and power of art in various forms, from mesmerizing 
+                        <br> illustrations and graphic designs to captivating photography. Each piece tells a 
+                        <br> unique story, inviting you to explore the depths of our creativity. 
+                        <br> Welcome to our world of artistic inspiration.</p>
+                    <a href="kairu.php" class="view-collection">View Collection</a>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Home PAGE/cc.png" alt="Image 3">
+                <div class="carousel-caption">
+                <h2>Art Portfolio</h2>
+                        <p>Embark on a journey through the vivid imaginations and creative expressions of Kairu and Sukkido. 
+                        <br> Our portfolio showcases the beauty and power of art in various forms, from mesmerizing 
+                        <br> illustrations and graphic designs to captivating photography. Each piece tells a 
+                        <br> unique story, inviting you to explore the depths of our creativity. 
+                        <br> Welcome to our world of artistic inspiration.</p>
+                    <a href="sukkido.php" class="view-collection">View Collection</a>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Home PAGE/dd.png" alt="Image 4">
+                <div class="carousel-caption">
+                <h2>Art Portfolio</h2>
+                        <p>Embark on a journey through the vivid imaginations and creative expressions of Kairu and Sukkido. 
+                        <br> Our portfolio showcases the beauty and power of art in various forms, from mesmerizing 
+                        <br> illustrations and graphic designs to captivating photography. Each piece tells a 
+                        <br> unique story, inviting you to explore the depths of our creativity. 
+                        <br> Welcome to our world of artistic inspiration.</p>
+                    <a href="kairu.php" class="view-collection">View Collection</a>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Home PAGE/ee.png" alt="Image 5">
+                <div class="carousel-caption">
+                <h2>Art Portfolio</h2>                        <p>Embark on a journey through the vivid imaginations and creative expressions of Kairu and Sukkido. 
+                        <br> Our portfolio showcases the beauty and power of art in various forms, from mesmerizing 
+                        <br> illustrations and graphic designs to captivating photography. Each piece tells a 
+                        <br> unique story, inviting you to explore the depths of our creativity. 
+                        <br> Welcome to our world of artistic inspiration.</p>
+                    <a href="sukkido.php" class="view-collection">View Collection</a>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Home PAGE/ff.png" alt="Image 6">
+                <div class="carousel-caption">
+                <h2>Art Portfolio</h2>                        <p>Embark on a journey through the vivid imaginations and creative expressions of Kairu and Sukkido. 
+                        <br> Our portfolio showcases the beauty and power of art in various forms, from mesmerizing 
+                        <br> illustrations and graphic designs to captivating photography. Each piece tells a 
+                        <br> unique story, inviting you to explore the depths of our creativity. 
+                        <br> Welcome to our world of artistic inspiration.</p>
+                    <a href="kairu.php" class="view-collection">View Collection</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        let slideIndex = 0;
+
+        function showSlides() {
+            const slides = document.querySelectorAll('.carousel-item');
+            slideIndex++;
+            if (slideIndex >= slides.length) slideIndex = 0;
+
+            slides.forEach((slide, index) => {
+                if (index === slideIndex) {
+                    slide.style.display = 'block';
+                } else {
+                    slide.style.display = 'none';
+                }
+            });
+        }
+
+        setInterval(showSlides, 3000); // Change slide every 3 seconds
+
+        showSlides();
+    </script>
+
+    <footer>
+        <p>&copy; 2024 ART PORTFOLIO. Cariaga, Jhullianne Kyle, Dayrit, Francis Dominic. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
